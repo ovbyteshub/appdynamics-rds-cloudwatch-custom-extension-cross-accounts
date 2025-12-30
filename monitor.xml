@@ -1,0 +1,21 @@
+<monitor>
+  <name>AWS RDS CloudWatch Metrics Collector</name>
+  <type>managed</type>
+  <description>Collects Amazon RDS CloudWatch metrics across multiple AWS accounts.</description>
+
+  <monitor-configuration></monitor-configuration>
+
+  <monitor-run-task>
+    <name>CollectRDSMetrics</name>
+    <type>executable</type>
+
+    <execution-style>periodic</execution-style>
+    <execution-frequency-in-seconds>60</execution-frequency-in-seconds>
+
+    <executable-task>
+      <type>file</type>
+      <file>rds-cloudwatch-metrics.sh</file>
+      <working-directory>${monitors.directory}/AWSRDSCustomExt</working-directory>
+    </executable-task>
+  </monitor-run-task>
+</monitor>

@@ -1,0 +1,17 @@
+ubuntu@ip-172-31-16-239:~/appdynamics/machine-agent/monitors/AWSRDSCustomExt$ ./rds-cloudwatch-metrics.sh
+name=Custom Metrics|Amazon RDS|Accounts|rds-account-a|database-1|metrics|CPUUtilization, value=3
+name=Custom Metrics|Amazon RDS|Accounts|rds-account-a|database-1|metrics|DatabaseConnections, value=0
+name=Custom Metrics|Amazon RDS|Accounts|rds-account-a|database-1|metrics|FreeStorageSpace (KB), value=18002324
+name=Custom Metrics|Amazon RDS|Accounts|rds-account-a|database-1|metrics|FreeableMemory (KB), value=117680
+name=Custom Metrics|Amazon RDS|Accounts|rds-account-a|database-1|metrics|ReadIOPS, value=0
+name=Custom Metrics|Amazon RDS|Accounts|rds-account-a|database-1|metrics|ReadLatency (ms), value=0
+name=Custom Metrics|Amazon RDS|Accounts|rds-account-a|database-1|metrics|WriteIOPS, value=0
+name=Custom Metrics|Amazon RDS|Accounts|rds-account-a|database-1|metrics|WriteLatency (ms), value=0
+name=Custom Metrics|Amazon RDS|Accounts|rds-account-b|database-1|metrics|CPUUtilization, value=3
+name=Custom Metrics|Amazon RDS|Accounts|rds-account-b|database-1|metrics|DatabaseConnections, value=0
+name=Custom Metrics|Amazon RDS|Accounts|rds-account-b|database-1|metrics|FreeStorageSpace (KB), value=17963972
+name=Custom Metrics|Amazon RDS|Accounts|rds-account-b|database-1|metrics|FreeableMemory (KB), value=187728
+name=Custom Metrics|Amazon RDS|Accounts|rds-account-b|database-1|metrics|ReadIOPS, value=0
+name=Custom Metrics|Amazon RDS|Accounts|rds-account-b|database-1|metrics|ReadLatency (ms), value=0
+name=Custom Metrics|Amazon RDS|Accounts|rds-account-b|database-1|metrics|WriteIOPS, value=0
+name=Custom Metrics|Amazon RDS|Accounts|rds-account-b|database-1|metrics|WriteLatency (ms), value=0

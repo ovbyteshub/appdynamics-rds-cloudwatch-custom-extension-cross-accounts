@@ -1,0 +1,28 @@
++---------------------------+
+|  Central AWS Account      |
+|                           |
+|  EC2 Instance             |
+|  - AppDynamics Agent      |
+|  - RDS Metrics Script     |
+|  - IAM Role (Central)     |
+|                           |
++-------------+-------------+
+              |
+              | STS AssumeRole
+              |
++-------------+-------------+
+|   RDS Account A           |
+|   - Amazon RDS            |
+|   - IAM Role              |
+|     (CloudWatch Read)     |
++---------------------------+
+
++-------------+-------------+
+|   RDS Account B           |
+|   - Amazon RDS            |
+|   - IAM Role              |
+|     (CloudWatch Read)     |
++---------------------------+
+
+Metrics Flow:
+CloudWatch → Script → AppDynamics Machine Agent
